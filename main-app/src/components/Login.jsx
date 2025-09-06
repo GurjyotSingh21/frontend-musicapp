@@ -61,14 +61,6 @@ value={username}
     Log In
    </button>
   </form>
-  <div className="mt-6 text-center text-gray-400 text-sm">
-   <p>
-    Don’t have an account?{" "}
-    <span className="text-green-500 hover:underline cursor-pointer">
-     Sign up free
-    </span>
-   </p>
-  </div>
  </div>
 </div>
  );
