@@ -11,7 +11,7 @@ export default defineConfig({
     federation({
       name: 'main_app',
       remotes: {
-        music_library: 'https://music-library-microfrontend-1usk.vercel.app/assets/remoteEntry.js'
+        music_library: "musicLibrary@https://frontend-musicapp-656t.vercel.app/remoteEntry.js"
       },
       shared: ['react', 'react-dom'],
     }),
