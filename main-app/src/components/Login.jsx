@@ -38,7 +38,7 @@ return (
 <br />
 <br />
 <form onSubmit={handleSubmit} className="space-y-4">
-<input class='username'
+<input 
 type="text"
 placeholder="Username"
 value={username}
@@ -46,7 +46,7 @@ value={username}
     className="w-full p-3 rounded-md bg-neutral-800 border border-neutral-700 focus:outline-none focus:ring-2 focus:ring-green-500"
    />
    <br />
-   <input class='password'
+   <input 
     type="password"
     placeholder="Password"
     value={password}
